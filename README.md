@@ -58,11 +58,11 @@
 
       * Add two fields to the `job_details` struct. In the `generation_parameters`
 
-      1. **Field Name:** `is_translated`
+      * **Field Name:** `is_translated`
          - **Type:** Boolean
          - **Purpose:** To indicate whether the prompt has been translated.
 
-      2. **Field Name:** `translated_prompt`
+      * **Field Name:** `translated_prompt`
          - **Type:** String
          - **Purpose:** To store the translated to english prompt.
 
@@ -90,7 +90,7 @@
    ### 2. Process Generation Request in Studio/Retouch
 
    * #### Header Validation:
-      * The backend validates the header. If the preferred language is not English, proceed to make an OpenAI API call to translate the text using a predefined prompt:
+      * The backend validates the header. If the preferred language is not English, proceed to make an DeepL API call to translate the text:
       
          ```
         Request:
