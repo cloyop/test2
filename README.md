@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[New Request Header] --> B[Frontend Validation with Extra Header]
     A --> C[Frontend with Preferred Language Header]
@@ -54,3 +55,4 @@ graph TD
     
     classDef consid fill:#fcc,stroke:#333,stroke-width:2px;
     class AA consid;
+```
